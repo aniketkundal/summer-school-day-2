@@ -1,0 +1,40 @@
+Assignment: CSS Types and Selectors Used in My Profile Card
+
+1. Types of CSS Used:
+
+External CSS:
+I linked an external stylesheet using this line in HTML:
+<link rel="stylesheet" href="style.css">
+Most of the styling is written in this external file.
+
+Internal CSS:
+I used the <style> tag inside the <head> section to add some quick styles directly in the HTML file.
+
+2. CSS Selectors Used:
+
+Universal Selector (*)
+Used to apply styles to all elements.
+Example:
+* { background-color: white; }
+
+Element Selectors (h1, p, li, h4, section li)
+These target specific HTML tags.
+Example:
+h1 { color: violet; }
+
+Class Selector (.xyz)
+Targets elements with a specific class name.
+Example:
+.xyz { color: rgb(141, 60, 92); }
+.xyz a:hover { background-color: red; font-size: 18px; }
+
+ID Selector (#bio)
+Targets a specific element by its ID.
+Example:
+#bio { color: aquamarine; }
+
+Attribute Selector
+Targets elements based on their attributes.
+Examples:
+a[href="mailto:aniketkundal7@gmail.com"] { color: blue; }
+a[href="https://www.linkedin.com/in/aniketkundal"] { color: blue; }

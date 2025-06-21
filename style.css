@@ -1,0 +1,32 @@
+*{
+    background-color: white;
+}
+.xyz{
+    color:rgb(141, 60, 92);
+}
+
+#bio{
+    color:aquamarine;
+    /* background-color: black; */
+}
+
+p,li{
+    color:black;
+}
+
+h4{
+  color:cyan;
+  /* background-color: black; */
+}
+
+section li {
+    color:rgb(8, 176, 31);
+}
+
+a[href="mailto:aniketkundal7@gmail.com"]{
+    color:blue;
+}
+
+a[href="https://www.linkedin.com/in/aniketkundal"]{
+    color:blue;
+}
